@@ -35,6 +35,20 @@ header ul a {
 ________________________*/
 
 
+/*FIRST SECTION*/
+
+.first-section {
+    background-color: #1ABC9C;
+}
+
+.my-container-sm {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/*SECOND SECTION*/
+
+
 
 
 
@@ -43,6 +57,16 @@ ________________________*/
     FOOTER
 ________________________*/
 
+/*_______________________
+
+    RESPONSIVE
+________________________*/
+
+@media all and (min-width: 768px) { 
+    .my-container-sm {
+        max-width: 50%;
+    }
+}
 
 
 
@@ -52,3 +76,14 @@ ________________________*/
     DEBUG
 ________________________*/
 
+.debug .first-section .my-container-sm {
+    background-color: deepskyblue;
+}
+
+.debug .first-section .my-container-sm .col {
+    border: 2px solid white;
+}
+
+.debug .second-section .row > * {
+    background-color: #BA4B63;
+}
