@@ -46,9 +46,16 @@ ________________________*/
     margin: 0 auto;
 }
 
-/*SECOND SECTION*/
+/*THIRD SECTION*/
 
+.third-section {
+    background-color: #1ABC9C;
+}
 
+.my-container {
+    width: 70%;
+    margin: 0 auto;
+}
 
 
 
@@ -56,6 +63,14 @@ ________________________*/
 
     FOOTER
 ________________________*/
+
+.footer-top {
+    background-color: #3A546D;
+}
+
+.footer-bot {
+    background-color: #2C3E50;
+}
 
 /*_______________________
 
@@ -86,4 +101,14 @@ ________________________*/
 
 .debug .second-section .row > * {
     background-color: #BA4B63;
+}
+
+.debug .my-container {
+    border: 2px solid black;
+}
+
+.debug .third-section .col,.col-12 {
+    border: 2px solid darkviolet;
+    margin: 0;
+    color: white;
 }
