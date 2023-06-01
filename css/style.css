@@ -10,21 +10,12 @@ header {
     color: white;
 }
 
-header ul {
-    list-style: none;
-    vertical-align: middle;
-
+.navbar-collapse {
+    flex-grow: 0;
 }
 
-header ul li {
-    display: inline-block;
-    padding-left: 1.875rem;
-}
-
-header ul a {
-    text-decoration: none;
+.nav-link {
     color: white;
-
 }
 
 
@@ -42,7 +33,7 @@ ________________________*/
 }
 
 .my-container-sm {
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -57,6 +48,17 @@ ________________________*/
     margin: 0 auto;
 }
 
+.line-first-section {
+    width: 10%;
+    border: 3px solid white;
+    border-radius: .3125rem;
+}
+
+.line {
+    width: 15%;
+    border: 3px solid white;
+    border-radius: .3125rem;
+}
 
 
 /*_______________________
@@ -72,43 +74,7 @@ ________________________*/
     background-color: #2C3E50;
 }
 
-/*_______________________
 
-    RESPONSIVE
-________________________*/
-
-@media all and (min-width: 768px) { 
-    .my-container-sm {
-        max-width: 50%;
-    }
-}
-
-
-
-
-/*_______________________
-
-    DEBUG
-________________________*/
-
-.debug .first-section .my-container-sm {
-    background-color: deepskyblue;
-}
-
-.debug .first-section .my-container-sm .col {
-    border: 2px solid white;
-}
-
-.debug .second-section .row > * {
-    background-color: #BA4B63;
-}
-
-.debug .my-container {
-    border: 2px solid black;
-}
-
-.debug .third-section .col,.col-12 {
-    border: 2px solid darkviolet;
-    margin: 0;
-    color: white;
+.footer-icons {
+    max-width: fit-content;
 }
